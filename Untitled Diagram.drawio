@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T13:25:52.548Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="3Ei3RfcIvQXXYvpsQsIw" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T13:30:38.386Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="gAzB2FdBY_8azfrk-GGA" type="github">
   <diagram id="-uCUBRwucRaSAOFAAjXm" name="Page-1">
     <mxGraphModel dx="2249" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,10 @@
           <mxGeometry x="350" y="980" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-57" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;AuthByJWTMiddleware&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="60" width="200" height="200" as="geometry" />
+          <mxGeometry x="-240" y="60" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ixgHzNMDdySwTx72Y3tY-67" value="1. Decode JWT and extract Company&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Merge company model object&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; to request&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-57">
+          <mxGeometry y="30" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-58" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RunCampaignRequest&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="840" y="160" width="200" height="200" as="geometry" />
