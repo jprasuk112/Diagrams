@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T09:58:12.459Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nTisVOpvRWwa1Y9myKUL" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T10:13:45.706Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VdX2R71dZmRAjsTJq_Q9" version="20.6.0" type="github">
   <diagram id="-uCUBRwucRaSAOFAAjXm" name="Page-1">
     <mxGraphModel dx="2324" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,13 +140,16 @@
           <mxGeometry x="5" y="30" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-60" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RabbitMQJob&lt;br&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="840" y="642.5" width="212.5" height="200" as="geometry" />
+          <mxGeometry x="840" y="642.5" width="232.5" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="F34zSx9BdH_wrsMTjOy3-5" value="1. Handler function from which we&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; decide which job perform what &lt;br&gt;&amp;nbsp; &amp;nbsp; action." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-60">
-          <mxGeometry x="2.5" y="52.5" width="210" height="60" as="geometry" />
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-5" value="1. Handler function from which we&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; decide which job perform what &lt;br&gt;&amp;nbsp; &amp;nbsp; action.&lt;br&gt;2. Make job in failed_queue if job failed" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-60">
+          <mxGeometry x="2.5" y="47.5" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-61" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RecordService&lt;br&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="720" width="200" height="200" as="geometry" />
+          <mxGeometry x="-240" y="720" width="215" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-6" value="1. Handler function from which we&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; decide which job perform what &lt;br&gt;&amp;nbsp; &amp;nbsp; action." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-61">
+          <mxGeometry x="5" y="60" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-62" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;ChannelService&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-240" y="940" width="200" height="200" as="geometry" />
