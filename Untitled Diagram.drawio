@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T10:23:19.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7OqOXXq6VPCZ4i0RWQAZ" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T10:23:45.347Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="z5LZPk_D9bBbWdeYzL7Y" version="20.6.0" type="github">
   <diagram id="-uCUBRwucRaSAOFAAjXm" name="Page-1">
-    <mxGraphModel dx="1640" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2324" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,19 +130,19 @@
         <mxCell id="ixgHzNMDdySwTx72Y3tY-58" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RunCampaignRequest&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="840" y="160" width="220" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="F34zSx9BdH_wrsMTjOy3-3" value="1. Validate slug if exists in same &lt;br&gt;company&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Validate request&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ixgHzNMDdySwTx72Y3tY-58" vertex="1">
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-3" value="1. Validate slug if exists in same &lt;br&gt;company&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Validate request&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-58">
           <mxGeometry x="10" y="40" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-59" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RunCampaignController&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="840" y="400" width="205" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="F34zSx9BdH_wrsMTjOy3-4" value="1. Check source&lt;br&gt;2. Check for csv&lt;br&gt;3. make entry for log into db&lt;br&gt;4. store request data into mongo&lt;br&gt;5. Create job in 1k_data_queue" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ixgHzNMDdySwTx72Y3tY-59" vertex="1">
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-4" value="1. Check source&lt;br&gt;2. Check for csv&lt;br&gt;3. make entry for log into db&lt;br&gt;4. store request data into mongo&lt;br&gt;5. Create job in 1k_data_queue" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-59">
           <mxGeometry x="5" y="30" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-60" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RabbitMQJob&lt;br&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="840" y="642.5" width="232.5" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="F34zSx9BdH_wrsMTjOy3-5" value="1. Handler function from which we&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; decide which job perform what &lt;br&gt;&amp;nbsp; &amp;nbsp; action.&lt;br&gt;2. Make job in failed_queue if job failed" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ixgHzNMDdySwTx72Y3tY-60" vertex="1">
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-5" value="1. Handler function from which we&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; decide which job perform what &lt;br&gt;&amp;nbsp; &amp;nbsp; action.&lt;br&gt;2. Make job in failed_queue if job failed" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-60">
           <mxGeometry x="2.5" y="47.5" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-61" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RecordService&lt;br&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
@@ -154,11 +154,17 @@
         <mxCell id="ixgHzNMDdySwTx72Y3tY-62" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;ChannelService&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-240" y="940" width="220" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-8" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-62">
+          <mxGeometry x="32.5" y="55" width="20" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="3M0Jo8jgyKiaNlDrv4SS-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Fetch the request data from mongo&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and bunch it as per limit defined of the&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;micro-service.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Creates the request body w.r.t the&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;micro-service.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Count the duplicate data and remove&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;them.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Dispatch the request&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-62">
           <mxGeometry x="-7.5" y="30" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-63" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;ConditionService&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="840" y="910" width="216.25" height="200" as="geometry" />
+          <mxGeometry x="840" y="910" width="222.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="F34zSx9BdH_wrsMTjOy3-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Pick data from mongo&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Manipulate data for current condition&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Make new job for next node&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ixgHzNMDdySwTx72Y3tY-63">
+          <mxGeometry x="-7.5" y="45" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-64" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;EventService&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="840" y="1150" width="215" height="200" as="geometry" />
