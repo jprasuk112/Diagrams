@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T10:45:10.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hx47aGXkCyYDcdapnuWa" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T10:47:53.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9MaKo-VcIAhwwJDwKu6G" version="18.2.1" type="github">
   <diagram id="-uCUBRwucRaSAOFAAjXm" name="Page-1">
-    <mxGraphModel dx="3412" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3015" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,10 +122,10 @@
           <mxGeometry x="350" y="980" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-57" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;AuthByJWTMiddleware&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="60" width="230" height="200" as="geometry" />
+          <mxGeometry x="-240" y="60" width="237.5" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ixgHzNMDdySwTx72Y3tY-67" value="&lt;ol&gt;&lt;li&gt;Decode JWT and extract Company&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Merge company model object&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;to request&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If validation&amp;nbsp; is passed request will &lt;br&gt;be&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;processed.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ixgHzNMDdySwTx72Y3tY-57" vertex="1">
-          <mxGeometry x="-12.5" y="30" width="240" height="130" as="geometry" />
+        <mxCell id="ixgHzNMDdySwTx72Y3tY-67" value="&lt;ol&gt;&lt;li&gt;Decode JWT and extract Company&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Validate the&amp;nbsp; company and merge it&amp;nbsp;&lt;br&gt;if exist else reject the request.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If validation&amp;nbsp; is passed request will &lt;br&gt;be&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;processed.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ixgHzNMDdySwTx72Y3tY-57" vertex="1">
+          <mxGeometry x="-12.5" y="30" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ixgHzNMDdySwTx72Y3tY-58" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-weight: 400;&quot;&gt;RunCampaignRequest&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="840" y="160" width="220" height="200" as="geometry" />
